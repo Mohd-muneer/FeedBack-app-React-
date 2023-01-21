@@ -19,14 +19,14 @@ function FeedBackList({feedback,handleDelete}) {
   )
 }
 
-// FeedBackList.PropTypes = {
-//   feedback: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.number.isRequired,
-//       text: PropTypes.string.isRequired,
-//       rating: PropTypes.number.isRequired,
-//     })
-//   ),
-// }
+FeedBackList.propTypes = {
+  feedback: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+      rating: PropTypes.number.isRequired,
+    })
+  ),
+}
 
 export default FeedBackList
